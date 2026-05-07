@@ -14,6 +14,7 @@ Start with [DESIGN.md](DESIGN.md). It follows the Google Stitch DESIGN.md patter
 - [brief-prompts/paper-figure-brief.md](brief-prompts/paper-figure-brief.md): reusable brief for paper figures.
 - [brief-prompts/infographic-brief.md](brief-prompts/infographic-brief.md): reusable brief for diagrams and infographics.
 - [preview.html](preview.html): static visual catalog of the palette and common patterns.
+- [docs/design-md-qc.md](docs/design-md-qc.md): quality-control rubric for keeping DESIGN.md rich and portable.
 - [tokens/snupi-theme.css](tokens/snupi-theme.css): CSS custom properties for quick prototyping.
 - [assets/reference/pdf-pages](assets/reference/pdf-pages): PNG renders of the PDF slide template used during theme extraction.
 

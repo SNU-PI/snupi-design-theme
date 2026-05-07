@@ -1,0 +1,41 @@
+:root {
+  --snupi-primary: #5B6CFF;
+  --snupi-on-primary: #FFFFFF;
+  --snupi-primary-legacy: #4169E1;
+  --snupi-primary-deep: #2F46D9;
+  --snupi-secondary: #8E97FF;
+  --snupi-secondary-soft: #E9ECFF;
+  --snupi-accent: #A855F7;
+  --snupi-accent-soft: #EAD7FF;
+  --snupi-neutral: #232833;
+  --snupi-neutral-muted: #667085;
+  --snupi-neutral-subtle: #9AA4B2;
+  --snupi-canvas: #F7F8FF;
+  --snupi-canvas-white: #FFFFFF;
+  --snupi-surface: #FFFFFF;
+  --snupi-surface-tint: #F2F4FF;
+  --snupi-hairline: #DDE3F1;
+  --snupi-hairline-strong: #B9C3E2;
+  --snupi-figure-grid: #E7EAF4;
+  --snupi-semantic-success: #15803D;
+  --snupi-semantic-warning: #F59E0B;
+  --snupi-semantic-error: #DC2626;
+
+  --snupi-font-sans: Inter, Pretendard, Aptos, Arial, sans-serif;
+  --snupi-font-serif: Georgia, "Times New Roman", serif;
+  --snupi-font-mono: "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  --snupi-radius-xs: 4px;
+  --snupi-radius-sm: 6px;
+  --snupi-radius-md: 8px;
+  --snupi-radius-lg: 12px;
+  --snupi-radius-xl: 16px;
+
+  --snupi-space-xs: 8px;
+  --snupi-space-sm: 12px;
+  --snupi-space-md: 16px;
+  --snupi-space-lg: 24px;
+  --snupi-space-xl: 32px;
+  --snupi-space-xxl: 48px;
+  --snupi-slide-band-height: 40px;
+}

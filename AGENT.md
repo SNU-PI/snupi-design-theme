@@ -1,1 +1,0 @@
-This repo is for SNUPI lab's visual theme.

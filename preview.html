@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SNUPI Lab Tech Indigo Preview</title>
+  <link rel="stylesheet" href="tokens/snupi-theme.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--snupi-canvas);
+      color: var(--snupi-neutral);
+      font-family: var(--snupi-font-sans);
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(1180px, calc(100vw - 48px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--snupi-hairline);
+    }
+
+    .hero h1 {
+      max-width: 900px;
+      font-size: clamp(38px, 5vw, 64px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 760px;
+      color: var(--snupi-neutral-muted);
+      font-size: 18px;
+    }
+
+    .theme-image {
+      width: 100%;
+      border: 1px solid var(--snupi-hairline);
+      border-radius: var(--snupi-radius-lg);
+      background: white;
+      display: block;
+    }
+
+    .section {
+      padding: 36px 0 0;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .swatch {
+      min-height: 132px;
+      border: 1px solid var(--snupi-hairline);
+      border-radius: var(--snupi-radius-md);
+      background: white;
+      overflow: hidden;
+    }
+
+    .swatch-color {
+      height: 74px;
+      border-bottom: 1px solid var(--snupi-hairline);
+    }
+
+    .swatch-label {
+      padding: 12px;
+      display: grid;
+      gap: 2px;
+      font-size: 14px;
+    }
+
+    .swatch-label strong {
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+
+    .panel {
+      background: white;
+      border: 1px solid var(--snupi-hairline);
+      border-radius: var(--snupi-radius-md);
+      padding: 22px;
+    }
+
+    .panel h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .panel p {
+      color: var(--snupi-neutral-muted);
+      font-size: 15px;
+    }
+
+    .slide {
+      aspect-ratio: 16 / 9;
+      background: white;
+      border: 1px solid var(--snupi-hairline);
+      border-radius: var(--snupi-radius-md);
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: 22px 1fr 22px;
+    }
+
+    .band {
+      background: var(--snupi-primary-legacy);
+    }
+
+    .slide-body {
+      position: relative;
+      padding: 28px 36px;
+    }
+
+    .slide-title {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      font-family: var(--snupi-font-serif);
+      font-size: 28px;
+      line-height: 1.12;
+    }
+
+    .title-bar {
+      width: 10px;
+      height: 54px;
+      background: var(--snupi-primary);
+      flex: 0 0 auto;
+    }
+
+    .figure-box {
+      position: absolute;
+      left: 36px;
+      right: 36px;
+      bottom: 34px;
+      height: 48%;
+      border: 1px solid var(--snupi-hairline);
+      border-radius: var(--snupi-radius-sm);
+      background:
+        linear-gradient(90deg, transparent 31px, var(--snupi-figure-grid) 32px),
+        linear-gradient(transparent 31px, var(--snupi-figure-grid) 32px),
+        var(--snupi-surface-tint);
+      background-size: 32px 32px;
+      display: grid;
+      place-items: center;
+      color: var(--snupi-neutral-muted);
+      font-size: 14px;
+    }
+
+    .chart {
+      display: grid;
+      gap: 16px;
+      padding-top: 8px;
+    }
+
+    .bar {
+      height: 22px;
+      border-radius: 9999px;
+      background: var(--snupi-secondary-soft);
+      overflow: hidden;
+    }
+
+    .bar span {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+    }
+
+    .label-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--snupi-neutral-muted);
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 10px;
+      border-radius: 9999px;
+      background: var(--snupi-secondary-soft);
+      color: var(--snupi-primary-deep);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: min(100vw - 28px, 1180px);
+        padding-top: 28px;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .panel {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <span class="tag">SNUPI Lab Tech Indigo</span>
+      </div>
+      <h1>Bright technical clarity for slides, paper figures, and research infographics.</h1>
+      <p>Use the selected palette image as the mood reference and preserve the existing SNUPI slide structure for decks.</p>
+      <img class="theme-image" src="assets/reference/theme.png" alt="SNUPI Lab selected paper series color palette">
+    </section>
+
+    <section class="section">
+      <h2>Palette</h2>
+      <div class="swatches">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#5B6CFF"></div>
+          <div class="swatch-label"><strong>Primary</strong><span>#5B6CFF</span></div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#4169E1"></div>
+          <div class="swatch-label"><strong>Slide Band</strong><span>#4169E1</span></div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#8E97FF"></div>
+          <div class="swatch-label"><strong>Secondary</strong><span>#8E97FF</span></div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#A855F7"></div>
+          <div class="swatch-label"><strong>Accent</strong><span>#A855F7</span></div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#232833"></div>
+          <div class="swatch-label"><strong>Neutral</strong><span>#232833</span></div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#F7F8FF"></div>
+          <div class="swatch-label"><strong>Canvas</strong><span>#F7F8FF</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Artifact Families</h2>
+      <div class="grid">
+        <div class="panel">
+          <h3>Presentation Slide</h3>
+          <div class="slide" aria-label="SNUPI slide structure preview">
+            <div class="band"></div>
+            <div class="slide-body">
+              <div class="slide-title"><span class="title-bar"></span><span>Title size: at least 35 pt</span></div>
+              <div class="figure-box">one large figure, equation, or table</div>
+            </div>
+            <div class="band"></div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Benchmark Figure</h3>
+          <div class="chart">
+            <div>
+              <div class="label-row"><span>Proposed method</span><strong>92</strong></div>
+              <div class="bar"><span style="width:92%; background:#5B6CFF"></span></div>
+            </div>
+            <div>
+              <div class="label-row"><span>Strong baseline</span><strong>81</strong></div>
+              <div class="bar"><span style="width:81%; background:#8E97FF"></span></div>
+            </div>
+            <div>
+              <div class="label-row"><span>Critical ablation</span><strong>67</strong></div>
+              <div class="bar"><span style="width:67%; background:#A855F7"></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Infographic Callout</h3>
+          <p style="margin-bottom:16px">Primary marks the contribution, secondary marks context, and violet marks the rare intervention or selected contrast.</p>
+          <div style="display:grid; gap:10px">
+            <div style="height:42px; border-radius:8px; background:#E9ECFF; border:1px solid #DDE3F1"></div>
+            <div style="height:42px; border-radius:8px; background:#5B6CFF"></div>
+            <div style="height:42px; border-radius:8px; background:#EAD7FF; border:1px solid #DDE3F1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

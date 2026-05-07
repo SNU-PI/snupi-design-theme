@@ -1,0 +1,177 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": "#5b6cff",
+        "on-primary": "#ffffff",
+        "primary-legacy": "#4169e1",
+        "primary-deep": "#2f46d9",
+        "secondary": "#8e97ff",
+        "secondary-soft": "#e9ecff",
+        "accent": "#a855f7",
+        "accent-soft": "#ead7ff",
+        "neutral": "#232833",
+        "neutral-muted": "#667085",
+        "neutral-subtle": "#9aa4b2",
+        "canvas": "#f7f8ff",
+        "canvas-white": "#ffffff",
+        "surface": "#ffffff",
+        "surface-tint": "#f2f4ff",
+        "hairline": "#dde3f1",
+        "hairline-strong": "#b9c3e2",
+        "figure-grid": "#e7eaf4",
+        "semantic-success": "#15803d",
+        "semantic-warning": "#f59e0b",
+        "semantic-error": "#dc2626"
+      },
+      "fontFamily": {
+        "display": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "slide-title": [
+          "Georgia, Times New Roman, serif"
+        ],
+        "slide-title-sans": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "section-title": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "figure-title": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "body-lg": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "body": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "body-sm": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "caption": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "label": [
+          "Inter, Pretendard, Aptos, Arial, sans-serif"
+        ],
+        "mono": [
+          "JetBrains Mono, SFMono-Regular, Menlo, Consolas, monospace"
+        ],
+        "math": [
+          "Latin Modern Math, Cambria Math, STIX Two Math, serif"
+        ]
+      },
+      "fontSize": {
+        "display": [
+          "56px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "700"
+          }
+        ],
+        "slide-title": [
+          "48px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "400"
+          }
+        ],
+        "slide-title-sans": [
+          "48px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "700"
+          }
+        ],
+        "section-title": [
+          "36px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "700"
+          }
+        ],
+        "figure-title": [
+          "24px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "700"
+          }
+        ],
+        "body-lg": [
+          "24px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "400"
+          }
+        ],
+        "body": [
+          "18px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "400"
+          }
+        ],
+        "body-sm": [
+          "14px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "400"
+          }
+        ],
+        "caption": [
+          "13px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "400"
+          }
+        ],
+        "label": [
+          "12px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "700"
+          }
+        ],
+        "mono": [
+          "13px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "500"
+          }
+        ],
+        "math": [
+          "32px",
+          {
+            "letterSpacing": "0px",
+            "fontWeight": "400"
+          }
+        ]
+      },
+      "borderRadius": {
+        "none": "0px",
+        "xs": "4px",
+        "sm": "6px",
+        "md": "8px",
+        "lg": "12px",
+        "xl": "16px",
+        "pill": "9999px",
+        "full": "9999px"
+      },
+      "spacing": {
+        "xxs": "4px",
+        "xs": "8px",
+        "sm": "12px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px",
+        "xxl": "48px",
+        "slide-band-height": "40px",
+        "slide-margin-x": "80px",
+        "slide-margin-y": "64px",
+        "slide-footer-gap": "20px",
+        "figure-gap": "18px"
+      }
+    }
+  }
+}

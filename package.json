@@ -1,0 +1,11 @@
+{
+  "name": "snupi-design-md",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SNUPI Lab visual theme context pack using DESIGN.md.",
+  "scripts": {
+    "design:lint": "npx @google/design.md lint DESIGN.md",
+    "design:export:tailwind": "npx @google/design.md export --format tailwind DESIGN.md > tokens/snupi-tailwind-theme.json",
+    "design:export:dtcg": "npx @google/design.md export --format dtcg DESIGN.md > tokens/snupi-theme.tokens.json"
+  }
+}

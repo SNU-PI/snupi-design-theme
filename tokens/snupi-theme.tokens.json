@@ -1,0 +1,546 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "$description": "A reusable visual identity for SNU PI Lab research communication. The theme combines the existing SNUPI slide template's white academic canvas, royal-blue structural bands, lower-right lab mark, and large single-figure discipline with a newer Tech Indigo palette for AI, robotics, HCI, and mobile agent research. It should feel precise, bright, readable, and technical rather than decorative or marketing-heavy.",
+  "color": {
+    "$type": "color",
+    "primary": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.357,
+          0.424,
+          1
+        ],
+        "hex": "#5b6cff"
+      }
+    },
+    "on-primary": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "hex": "#ffffff"
+      }
+    },
+    "primary-legacy": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.255,
+          0.412,
+          0.882
+        ],
+        "hex": "#4169e1"
+      }
+    },
+    "primary-deep": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.184,
+          0.275,
+          0.851
+        ],
+        "hex": "#2f46d9"
+      }
+    },
+    "secondary": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.557,
+          0.592,
+          1
+        ],
+        "hex": "#8e97ff"
+      }
+    },
+    "secondary-soft": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.914,
+          0.925,
+          1
+        ],
+        "hex": "#e9ecff"
+      }
+    },
+    "accent": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.659,
+          0.333,
+          0.969
+        ],
+        "hex": "#a855f7"
+      }
+    },
+    "accent-soft": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.918,
+          0.843,
+          1
+        ],
+        "hex": "#ead7ff"
+      }
+    },
+    "neutral": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.137,
+          0.157,
+          0.2
+        ],
+        "hex": "#232833"
+      }
+    },
+    "neutral-muted": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4,
+          0.439,
+          0.522
+        ],
+        "hex": "#667085"
+      }
+    },
+    "neutral-subtle": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.604,
+          0.643,
+          0.698
+        ],
+        "hex": "#9aa4b2"
+      }
+    },
+    "canvas": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.969,
+          0.973,
+          1
+        ],
+        "hex": "#f7f8ff"
+      }
+    },
+    "canvas-white": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "hex": "#ffffff"
+      }
+    },
+    "surface": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "hex": "#ffffff"
+      }
+    },
+    "surface-tint": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.949,
+          0.957,
+          1
+        ],
+        "hex": "#f2f4ff"
+      }
+    },
+    "hairline": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.867,
+          0.89,
+          0.945
+        ],
+        "hex": "#dde3f1"
+      }
+    },
+    "hairline-strong": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.725,
+          0.765,
+          0.886
+        ],
+        "hex": "#b9c3e2"
+      }
+    },
+    "figure-grid": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.906,
+          0.918,
+          0.957
+        ],
+        "hex": "#e7eaf4"
+      }
+    },
+    "semantic-success": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.082,
+          0.502,
+          0.239
+        ],
+        "hex": "#15803d"
+      }
+    },
+    "semantic-warning": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.961,
+          0.62,
+          0.043
+        ],
+        "hex": "#f59e0b"
+      }
+    },
+    "semantic-error": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.863,
+          0.149,
+          0.149
+        ],
+        "hex": "#dc2626"
+      }
+    }
+  },
+  "spacing": {
+    "$type": "dimension",
+    "xxs": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "xs": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      }
+    },
+    "xxl": {
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      }
+    },
+    "slide-band-height": {
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      }
+    },
+    "slide-margin-x": {
+      "$value": {
+        "value": 80,
+        "unit": "px"
+      }
+    },
+    "slide-margin-y": {
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      }
+    },
+    "slide-footer-gap": {
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      }
+    },
+    "figure-gap": {
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      }
+    }
+  },
+  "rounded": {
+    "$type": "dimension",
+    "none": {
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "xs": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "pill": {
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      }
+    },
+    "full": {
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 56,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "slide-title": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Georgia, Times New Roman, serif",
+        "fontSize": {
+          "value": 48,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "slide-title-sans": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 48,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "section-title": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 36,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "figure-title": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "body-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "body-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 13,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter, Pretendard, Aptos, Arial, sans-serif",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "mono": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "JetBrains Mono, SFMono-Regular, Menlo, Consolas, monospace",
+        "fontSize": {
+          "value": 13,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "math": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Latin Modern Math, Cambria Math, STIX Two Math, serif",
+        "fontSize": {
+          "value": 32,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    }
+  }
+}

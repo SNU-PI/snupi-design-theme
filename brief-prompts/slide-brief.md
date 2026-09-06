@@ -28,6 +28,7 @@ Use `DESIGN.md` and match the SNUPI Lab Tech Indigo family.
 - Existing slide bands: `#4169E1`.
 - Supporting highlights: `#8E97FF`.
 - Critical callout: `#A855F7`.
+- High-contrast takeaway or call to action, with neutral ink text: `#FFEE5B`.
 - Text and outlines: `#232833`.
 
 ## Avoid

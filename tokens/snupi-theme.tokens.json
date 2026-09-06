@@ -47,6 +47,17 @@
         "hex": "#2f46d9"
       }
     },
+    "primary-complement": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.933,
+          0.357
+        ],
+        "hex": "#ffee5b"
+      }
+    },
     "secondary": {
       "$value": {
         "colorSpace": "srgb",

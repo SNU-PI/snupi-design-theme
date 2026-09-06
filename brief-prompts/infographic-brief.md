@@ -17,6 +17,7 @@ Use `DESIGN.md` and the visual mood described by the SNUPI Lab Tech Indigo famil
 - `#5B6CFF`: main idea, current module, selected result.
 - `#8E97FF`: supporting module, secondary data, context.
 - `#A855F7`: intervention, novel mechanism, or critical callout.
+- `#FFEE5B`: one high-contrast callout or call to action per infographic, always with `#232833` text.
 - `#232833`: text, axes, structure, and outlines.
 - `#F7F8FF`: page canvas and subtle panels.
 

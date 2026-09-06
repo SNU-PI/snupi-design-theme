@@ -6,6 +6,7 @@
         "on-primary": "#ffffff",
         "primary-legacy": "#4169e1",
         "primary-deep": "#2f46d9",
+        "primary-complement": "#ffee5b",
         "secondary": "#8e97ff",
         "secondary-soft": "#e9ecff",
         "accent": "#a855f7",

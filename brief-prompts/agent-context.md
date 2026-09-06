@@ -5,6 +5,7 @@ Read `DESIGN.md` before producing any visual artifact. Treat it as the source of
 Use the SNUPI Lab Tech Indigo family:
 
 - primary: `#5B6CFF`
+- primary complement (high-contrast callout / CTA): `#FFEE5B`
 - slide band / legacy royal: `#4169E1`
 - secondary: `#8E97FF`
 - accent: `#A855F7`

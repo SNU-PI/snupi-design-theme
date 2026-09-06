@@ -8,6 +8,7 @@ colors:
   on-primary: "#FFFFFF"
   primary-legacy: "#4169E1"
   primary-deep: "#2F46D9"
+  primary-complement: "#FFEE5B"
   secondary: "#8E97FF"
   secondary-soft: "#E9ECFF"
   accent: "#A855F7"
@@ -180,6 +181,12 @@ components:
     typography: "{typography.body}"
     rounded: "{rounded.md}"
     padding: 16px 20px
+  callout-complement:
+    backgroundColor: "{colors.primary-complement}"
+    textColor: "{colors.neutral}"
+    typography: "{typography.body}"
+    rounded: "{rounded.md}"
+    padding: 16px 20px
   button-primary-hover:
     backgroundColor: "{colors.primary-deep}"
     textColor: "{colors.on-primary}"
@@ -271,7 +278,7 @@ The default mood is bright technical clarity: white or near-white canvas, exact 
 
 The slide heritage matters. The existing template uses top and bottom royal-blue bands, a lower-right SNUPI logo, large academic title type, and a strong rule: one large figure, table, or equation per slide whenever possible. Preserve that discipline even when using the newer Tech Indigo palette.
 
-The original palette board used a white/mist canvas, a blue SNUPI triangular mark, a large "Selected Paper Series Color Palette" heading, and a central rounded palette card. Its five essential colors are encoded above: Primary `#5B6CFF`, Secondary `#8E97FF`, Accent `#A855F7`, Neutral `#232833`, and Background `#F7F8FF`.
+The original palette board used a white/mist canvas, a blue SNUPI triangular mark, a large "Selected Paper Series Color Palette" heading, and a central rounded palette card. Its five essential colors are encoded above: Primary `#5B6CFF`, Secondary `#8E97FF`, Accent `#A855F7`, Neutral `#232833`, and Background `#F7F8FF`. A sixth color, Primary Complement `#FFEE5B`, was added later as the high-contrast partner of Primary for callouts and calls to action.
 
 The original slide template used 16:9 pages with full-width royal-blue top and bottom bands, a lower-right SNUPI logo region, footer date/page text, serif title treatment, and a vertical blue accent bar on content slides. Title slides center the title and metadata. Content slides reserve most of the canvas for one large figure, table, or equation.
 
@@ -297,6 +304,7 @@ Use these non-goals:
 ## Colors
 
 - **Primary Tech Indigo (#5B6CFF):** main brand color for key figures, section highlights, selected nodes, and primary chart series.
+- **Primary Complement Yellow (#FFEE5B):** the complementary color of Primary, reserved for high-contrast callouts and call-to-action emphasis such as a highlighted takeaway, a "try this" block, or the single number the audience must remember. Always pair it with neutral ink text, never with white text or as a chart series, and use it at most once per slide or panel.
 - **Primary Legacy Royal (#4169E1):** preserve for slide top and bottom bands, footer pagination, and compatibility with existing SNUPI slide decks.
 - **Secondary Lavender Blue (#8E97FF):** supporting chart series, secondary UI blocks, subtle connectors, grouped regions, and hover-like emphasis.
 - **Accent Violet (#A855F7):** callouts, exceptional states, contrast groups, and the one "pay attention here" element. Do not use it as broad background.
